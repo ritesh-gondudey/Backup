@@ -1,0 +1,21 @@
+ITG URL Pweb
+<add key="HostUrl" value="https://itg-proposalweb.ext.hp.com" />
+<add key="apiUrl" value="https://itg-proposalweb.ext.hp.com/worldwide-english" />
+
+ITG SQL Server DB
+<add name="PWebReportConnection" connectionString="Data Source=GVS12072.auth.hpicorp.net,2048;Initial Catalog=Proposalweb_pro_applog;Persist Security Info=True;User ID=ppsc1dbuser;Password=ppsc1Aug162016!" providerName="System.Data.SqlClient" />
+
+------------------------------------------------------------------------------------------------------------------------
+HPP Services Details for Pweb
+Old URL                             https://hppwsstg2.passport.hp.com/hpp-ws/services/PassportAdminService.wsdl
+New URL                             https://hppwsstg2.passport.hp.com/hpp-ws/services/PassportService.wsdl
+Username                          	202127_PWeb_ITG_HPI@hp.com
+Password                            HPP@12345
+HPP APP ID                         	202127_PWeb_ITG_HPI  
+--------------------------------------------------------------------------------------------------------------------------
+ProposalWeb-INC to Corona
+In Code: http://ext-webserv-corona.houston.hp.com:80/QuoteIds/1.8/ReadQuoteHPIService
+ITG: http://ext-itg-corona.austin.hp.com/QuoteIds/hpi/2.0/ReadQuoteService
+User Name :       TestPOC
+Password :        1qaz2wsx            
+--------------------------------------------------------------------------------------------------------------------------
