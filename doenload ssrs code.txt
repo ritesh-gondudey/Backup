@@ -1,0 +1,5 @@
+NetworkCredential nwc = new NetworkCredential("username", "password");
+        WebClient client = new WebClient();
+        client.Credentials = nwc;
+        string reportURL = "http://someIp/ReportServer/?%2fReportProjectName/ReportName&rs:Command=Render&rs:Format=PDF";
+        return File(client.DownloadData(reportURL), "application/pdf");
